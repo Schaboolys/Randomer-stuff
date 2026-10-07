@@ -1,0 +1,23 @@
+CODE BREAKERS: CIPHER DEMONSTRATION
+
+1. Extract this ZIP. Keep the JAR and ciphertext text file in the same folder.
+2. Open that folder in VS Code or your existing Java Codespace.
+3. Open its terminal. Run: java -jar "Code Breakers Demo.jar"
+4. At Message, enter: file:encrypted-message.txt
+5. At Transformation, enter one transformation, such as C:3, K:123 or R.
+6. Each transformation acts on the current text. Read its Result, then choose another transformation.
+7. Recover the reading and answer the question on your lesson sheet.
+8. Enter quit when finished. Enter new to load another message, or tests to run the checks.
+
+The reading was encrypted with Caesar shift 7, then repeating key 314, then reversal.
+Decide which transformations recover the plaintext. The program applies exactly what you enter.
+C:n shifts capital A-Z by the signed amount n.
+K:n adds the three key digits to successive capital letters and repeats.
+K:-n subtracts those digits. Leading zeros count: K:7 means K:007.
+R reverses every character. Repeating keys count only capital letters.
+Letter shifts preserve other characters. Reversal moves spaces and punctuation.
+
+Java 8 or newer is required. If Java is unavailable, use your teacher's running program.
+Opening a JAR by double-clicking does not supply this console.
+The separate Iteration 1 starter has four placeholder method bodies for you to complete.
+This demo supplies the three transformations. It includes no automatic analysis.
